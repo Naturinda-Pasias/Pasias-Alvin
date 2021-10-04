@@ -11,9 +11,13 @@
     <h1 id="title">Hello World, we are software developers!</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="" id="survey-form">
+      <label for="name" id="name-label">Please enter your name</label>
       <input type="text" name="name" id="name" placeholder="Please enter your name" required>
+      <label for="email" id="email-label">Enter your Email Address</label>
       <input type="email" name="email" id="email" placeholder="Enter your Email Address" required>
-      <input type="number" name="number" id="number">
+      <label for="number" id="number-label">Please enter your Number between 10 & 1000</label>
+      <input type="number" name="number" id="number" min="10" max="1000">
+
 
 
     </form>
